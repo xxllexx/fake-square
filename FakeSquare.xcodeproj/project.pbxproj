@@ -12,6 +12,7 @@
 		5A2F02FC1F1C94350051913E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F02FA1F1C94350051913E /* Main.storyboard */; };
 		5A2F02FE1F1C94350051913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F02FD1F1C94350051913E /* Assets.xcassets */; };
 		5A2F03011F1C94350051913E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F02FF1F1C94350051913E /* LaunchScreen.storyboard */; };
+		5A2F03B21F1DE1500051913E /* UrlDataTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F03B11F1DE14F0051913E /* UrlDataTransfer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5A2F02FD1F1C94350051913E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2F03001F1C94350051913E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2F03021F1C94350051913E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2F03B11F1DE14F0051913E /* UrlDataTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlDataTransfer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5A2F02FD1F1C94350051913E /* Assets.xcassets */,
 				5A2F02FF1F1C94350051913E /* LaunchScreen.storyboard */,
 				5A2F03021F1C94350051913E /* Info.plist */,
+				5A2F03B11F1DE14F0051913E /* UrlDataTransfer.swift */,
 			);
 			path = FakeSquare;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2F02F91F1C94350051913E /* ViewController.swift in Sources */,
+				5A2F03B21F1DE1500051913E /* UrlDataTransfer.swift in Sources */,
 				5A2F02F71F1C94350051913E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +270,7 @@
 				DEVELOPMENT_TEAM = XPHGA2FMQQ;
 				INFOPLIST_FILE = FakeSquare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xxllexx.FakeSquare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.square;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +283,7 @@
 				DEVELOPMENT_TEAM = XPHGA2FMQQ;
 				INFOPLIST_FILE = FakeSquare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xxllexx.FakeSquare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.square;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +308,7 @@
 				5A2F03071F1C94350051913E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
