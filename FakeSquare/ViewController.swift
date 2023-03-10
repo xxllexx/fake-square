@@ -95,7 +95,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             "transaction_id": "transaction_id",
             "client_transaction_id": "client_transaction_id",
             "error_code": error ?? "",
-            "status": error == nil ? "ok" : "error",
+            "status": error == nil ? "OK" : "ERROR",
             "state": urlData["state"] ?? ""
         ]
         

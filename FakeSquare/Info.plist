@@ -36,6 +36,7 @@
 		<string>pos</string>
 		<string>stores</string>
 		<string>wix</string>
+		<string>wixadmin</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
